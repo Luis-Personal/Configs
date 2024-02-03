@@ -205,3 +205,5 @@ for_window [class="Evince"] fullscreen enable
 # Window Compositor
 exec_always picom --experimental-backends -b
 
+# Keyboard
+exec "setxkbmap -layout us,de"

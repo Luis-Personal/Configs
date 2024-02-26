@@ -1,4 +1,7 @@
 require'nvim-treesitter.configs'.setup {
+    rainbow = {
+        enable = false,
+    },
   -- A list of parser names, or "all" (the five listed parsers should always be installed)
   ensure_installed = { "c", "lua", "javascript", "markdown" },
   auto_install = true,
